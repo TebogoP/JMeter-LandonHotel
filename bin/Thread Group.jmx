@@ -68,6 +68,11 @@
         <stringProp name="filename"></stringProp>
       </ResultCollector>
       <hashTree/>
+      <GaussianRandomTimer guiclass="GaussianRandomTimerGui" testclass="GaussianRandomTimer" testname="Gaussian Random Timer">
+        <stringProp name="ConstantTimer.delay">1000</stringProp>
+        <stringProp name="RandomTimer.range">500.0</stringProp>
+      </GaussianRandomTimer>
+      <hashTree/>
     </hashTree>
   </hashTree>
 </jmeterTestPlan>
